@@ -1,1 +1,32 @@
-main.css
+h1{
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+body{
+	background-color: #BDB76B;
+}
+
+H3 {
+	color:green;
+}
+ol{
+	font-weight: bold
+}
+
+.AboutIntro
+{
+	color: red;
+	text-align: center;
+}
+#Sundays
+{
+	background-color: #5F9EA0;
+}
+#OnAdvice
+{
+	color: white;
+	font-size: 24px;
+	font-family: sans-serif;
+	background-color: black;
+}
