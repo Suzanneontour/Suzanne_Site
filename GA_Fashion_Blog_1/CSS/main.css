@@ -1,0 +1,92 @@
+body {
+  font-family: 'lato', sans-serif;
+  font-size: 18px;
+  padding-right: 50px;
+  border-right: 2px solid grey;
+  padding-left: 50px;
+  border-left: 2px solid grey;
+}
+
+.Date {
+  color: grey; opacity: .5;
+  font-weight: lighter;
+  margin-top: 
+}
+
+.OnBrooklyn {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.Vintage {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.CapitalC {
+  float: left; 
+  color: gray; opacity: .3; 
+  font-size: 85px;
+  line-height: 60px;
+  padding-right: 8px;
+  padding-left: 3px;
+  padding-bottom: 8px;
+}
+
+.CapitalS{
+  float: left; 
+  color: gray; opacity: .3; 
+  font-size: 85px;
+  line-height: 60px;
+  padding-right: 8px;
+  padding-left: 3px; 
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.continueText {
+  float: right;
+  padding-bottom: 20px;
+  color: red;
+}
+
+#title {
+  color: red;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-bottom: none;
+}
+
+#headerNav a {
+  padding-bottom: .2em;
+  margin-right: .7em;
+  color: grey; opacity: .5;
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: 2px solid grey;
+}
+
+#mainContent {
+  margin-top: 50px;
+}
+
+#BottomNav a {
+  padding-bottom: .2em;
+  margin-right: .7em;
+  color: red;
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#Footer {
+  color: gray; opacity: .5
+}
+
