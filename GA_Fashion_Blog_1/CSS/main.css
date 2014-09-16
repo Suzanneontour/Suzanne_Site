@@ -2,15 +2,24 @@ body {
   font-family: 'lato', sans-serif;
   font-size: 18px;
   padding-right: 50px;
+  /*
   border-right: 2px solid grey;
+   * Stripe only appears on left side.
+  */
   padding-left: 50px;
-  border-left: 2px solid grey;
+  border-left: 4px solid grey;
+  /* Setting margin-top and left to use 0 from default value of 8 so stripe is properly aligned. */
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .Date {
   color: grey; opacity: .5;
   font-weight: lighter;
+/*
   margin-top: 
+ * This isn't vaid. You need to specify an value for attribute, e.g. 0;
+*/
 }
 
 .OnBrooklyn {
@@ -61,7 +70,9 @@ body {
   color: red;
   font-size: 60px;
   font-weight: lighter;
-  padding-bottom: none;
+  padding-bottom: 0; /* None isn't a valid value for padding-bottom. It expects a number, e.g. 0, or inherit.*/
+  /* Setting margin-top of h1 to 0 so left gray stripe is aligned properly. */
+  margin-top: 0;
 }
 
 #headerNav a {
@@ -84,6 +95,13 @@ body {
   font-size: 1em;
   text-decoration: none;
   border-bottom: none;
+  border-left: 1px solid gray; /* Design comp has a divide between the links */
+  padding-left: 10px;
+}
+
+#BottomNav a:first-child {
+    border-left: none;
+    padding-left: 0;
 }
 
 #Footer {
