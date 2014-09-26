@@ -8,6 +8,7 @@
   border: solid black;
   margin: 25px;
   float: left;
+  cursor: pointer;
 }
 
 .light {
@@ -22,54 +23,20 @@
 
 .red {
   background-color: red;
-  opacity: .2;
-}
-
-.red:hover {
-  background-color: red;
-  opacity: .8;
 }
 
 .orange {
   background-color: orange;
-  opacity: .2;
-}
-
-.orange:hover {
-  background-color: orange;
-  opacity: .8;
 }
 
 .green {
   background-color: green;
-  opacity: .2;
 }
 
-.green:hover {
-  background-color: green;
-  opacity: .8;
-}
-
-#red {
+.text {
   font-size: 42px;
   color: black;
   text-align:center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-#orange {
-  font-size: 42px;
-  color: black;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-#green {
-  font-size: 42px;
-  color: black;
-  text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
 }
