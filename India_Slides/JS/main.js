@@ -3,10 +3,11 @@ var currentImage = 0;
 
 function changePicture(photoIndex) {
 	document.getElementById("mainPhoto").setAttribute("src", images[0], images[1], images[2], images[3], images[4], images[5])
+
 }
 
-function next() {
-	document.getElementById("").setAttribute("src")
+function next(photoStrip) {
+	document.getElementById("next").setAttribute("src", images[1], images[2], images[3], images[4], images[5])
 
 }
 
