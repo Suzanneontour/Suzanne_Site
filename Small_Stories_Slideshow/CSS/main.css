@@ -1,9 +1,23 @@
-.squareBox {
-  position: relative;
-  margin: 10px;
-  height: 300px;
-  width: 300px;
-  background-color: white;
-  border-color: black;
-  border-style: solid;
+body {
+	font-family: Helvetica, Georgia;
 }
+
+#beyondLuck {
+	width: 280px;
+	height: 300px;
+	border-color: black;
+	border-style: solid;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	}
+
+#beautiful {
+	width: 280px;
+	height: 300px;
+	border-color: black;
+	border-style: solid;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	}

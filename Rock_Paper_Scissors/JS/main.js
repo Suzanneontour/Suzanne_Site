@@ -1,6 +1,5 @@
 var userChoice = "paper";
 var computerChoice = "rock";
-var winner;
 
 var userWins = ["rockscissors", "paperrock", "scissorspaper"];
 
@@ -27,3 +26,8 @@ function evaluate() {
 		var outcome = evaluate();
 		alert(evaluate());
 
+
+
+_______________________________________________
+
+var userWins = []
