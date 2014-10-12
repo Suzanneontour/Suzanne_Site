@@ -2,22 +2,33 @@ body {
 	font-family: Helvetica, Georgia;
 }
 
-#beyondLuck {
-	width: 280px;
-	height: 300px;
-	border-color: black;
-	border-style: solid;
-	overflow: hidden;
-	display: inline-block;
+#luck {
 	position: relative;
-	}
+}
+
+#luck: hover {
+	opacity: .5;
+}
+
+#woods {
+}
+
+#bathroom {
+}
 
 #beautiful {
+	}
+
+.photoContainer {
 	width: 280px;
 	height: 300px;
+	float: left;
 	border-color: black;
 	border-style: solid;
 	overflow: hidden;
 	display: inline-block;
-	position: relative;
+	margin-right: 10px;
+	margin-bottom: 10px;
 	}
+
+}
