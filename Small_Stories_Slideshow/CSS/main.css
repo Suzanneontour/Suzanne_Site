@@ -1,13 +1,12 @@
 body {
-	font-family: Helvetica, Georgia;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	background-color: #2E2728;
 }
 
 #luck {
-	position: relative;
 }
 
-#luck: hover {
-	opacity: .5;
+#luck:hover {
 }
 
 #woods {
@@ -29,6 +28,16 @@ body {
 	display: inline-block;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	margin-left: 10px;
 	}
 
+.photoContainer:hover {
+	opacity: .2;
+
+}
+
+.caption {
+	color: white;
+	float: left;
+	display: block;
 }
