@@ -30,9 +30,12 @@ body {
 	margin-bottom: 10px;
 	margin-left: 10px;
 	}
+.hover {
 
-.photoContainer:hover {
-	opacity: .2;
+}
+
+/*.photoContainer:hover {
+	opacity: .2;*/
 
 }
 
@@ -40,4 +43,5 @@ body {
 	color: white;
 	float: left;
 	display: block;
+	visibility: hidden;
 }

@@ -1,13 +1,12 @@
-$( document ).ready(function() {
-	hoverEffect();
+$(document).ready( function() {
+
+    $('.photoContainer').hover( function() {
+        $(this).find('.luck').fadeIn(300);
+    }, function() {
+        $(this).find('.luck').fadeOut(100);
+    });
+	
 });
 
-function hoverEffect(){
-	$( ".photoContainer" ).hover(
-		function() {
-			$( ".caption" ).show();
-		}, function() {
-			$( ".caption" ).hide();
-		}
-		);
-}
+
+
