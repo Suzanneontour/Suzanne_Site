@@ -1,0 +1,35 @@
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	background-color: #2E2728;
+}
+
+.photoContainer {
+	position: relative;
+	width: 280px;
+	height: 300px;
+	float: left;
+	border-color: black;
+	border-style: solid;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#luckCaption {
+	opacity: 0;
+	position: absolute;
+	color: black;
+	background: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.875em;
+}
+
+.photoContainer:hover #luckCaption {
+	opacity: .9;
+}
+
+}
