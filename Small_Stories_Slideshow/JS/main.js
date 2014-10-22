@@ -10,3 +10,8 @@ $(document).ready( function() {
 
 
 
+function doSomething(num) {
+	alert
+}
+
+check out: Window Event Attributes

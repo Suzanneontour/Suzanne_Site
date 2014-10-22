@@ -18,18 +18,21 @@ body {
 	cursor: pointer;
 }
 
-#luckCaption {
-	opacity: 0;
+.caption {
 	position: absolute;
-	color: black;
-	background: none;
-	text-align: center;
-	font-weight: bold;
+	bottom: 0px;
+	display: none;
 	font-size: 1.875em;
+	font-weight: bold;
+	float: left;
+
 }
 
-.photoContainer:hover #luckCaption {
-	opacity: .9;
-}
 
+.photoContainer:hover .caption{
+	display: block;
+
+}
+.photoContainer:hover img{
+	opacity: .2;
 }
