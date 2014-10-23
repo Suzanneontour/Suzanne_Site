@@ -2,6 +2,15 @@ body {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	background-color: #2E2728;
 }
+.mainImageContainer {
+	position: absolute;
+	top:200px;
+	width: 60%;
+	border: 10px solid black;
+	z-index: 1;
+	background-color: white;
+}
+
 
 .photoContainer {
 	position: relative;
@@ -24,10 +33,7 @@ body {
 	display: none;
 	font-size: 1.875em;
 	font-weight: bold;
-	float: left;
-
 }
-
 
 .photoContainer:hover .caption{
 	display: block;
@@ -36,3 +42,8 @@ body {
 .photoContainer:hover img{
 	opacity: .2;
 }
+
+.photoContainer p{
+	display: none;
+}
+
