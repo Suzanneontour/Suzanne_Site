@@ -1,18 +1,24 @@
-$(document).ready(function(){
-  $(".photoContainer").click(function(){
-    var div=$(".main-image-container");
-    div.animate({height:'500px', width: '500px', opacity: 1},"slow");
-    $('.small').hide();
-    $('.large').show();
-    //div.animate({width:'300px',visibility: "visible"},"slow");
-    //div.animate({height:'100px',visibility:"visible"},"slow");
-    //div.animate({width:'100px',visibility: "visible"},"slow");
-  });
+var largeImageArray = ["img/large/large_3.jpg", "img/large/large_10.jpg", "img/large/large_12.jpg", "img/large/large_16.jpg", "img/large/large_17.jpg", "img/large/large_18.jpg", "img/large/large_19.jpg"];
+var mainImageContainer = $(".main-image-container");
+
+$(".photoContainer").click(function(){
+	console.log($(this).children('p').text());
 });
 
+//div.animate({width:'300px',visibility: "visible"},"slow");
+//div.animate({height:'100px',visibility:"visible"},"slow");
+//div.animate({width:'100px',visibility: "visible"},"slow");
 
 
 
+function showLargeImage(whichImage){
+	displayMainImageContainer();
+	addMainImage();
+}
+
+function displayMainImageContainer(){
+	 mainImageContainer.animate({height:'500px', width: '500px', opacity: 1},"slow");
+}
 
 
 
@@ -52,9 +58,6 @@ $(".main-image-container").click(function() {
 			width: '+=40px'
 		}, 1000);
 	});*/
-
-
-
 
 
 

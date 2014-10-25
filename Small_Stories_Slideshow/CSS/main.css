@@ -2,10 +2,28 @@ body {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	background-color: white;
 }
+
+#luck {
+
+}
+
+.small {
+	width: 280px;
+	height: 300px;
+}
+
+.large {
+	height: 600px;
+	width: 650px;
+	border-color: black;
+	display: none;
+}
+
 .main-image-container {
 	position: absolute;
 	top:200px;
-	width: 60%;
+	width: 600px;
+	height:;
 	border: 3px solid black;
 	background-color: white;
 	z-index: 1;
@@ -47,10 +65,13 @@ body {
 	display: block;
 }
 
-.mainImageText {
+.main-text {
+	font-size: 1.2em;
+	color: black;
+	border-style: solid;
+	background-color: white;
+	height: auto;
+	width: 600px;
 
 }
 
-.large {
-	display: none;
-}
