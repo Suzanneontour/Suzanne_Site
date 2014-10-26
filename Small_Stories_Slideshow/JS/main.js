@@ -1,13 +1,30 @@
-var largeImageArray = ["img/large/large_3.jpg", "img/large/large_10.jpg", "img/large/large_12.jpg", "img/large/large_16.jpg", "img/large/large_17.jpg", "img/large/large_18.jpg", "img/large/large_19.jpg"];
-var mainImageContainer = $(".main-image-container");
-var isopen = false
+var largeImageArray = ["img/large_3.jpg", "img/large_10.jpg", "img/large_12.jpg", "img/large_16.jpg", "img/large_17.jpg", "img/large_18.jpg", "img/large_19.jpg"];
+var isopen = false;
+
 $(".photoContainer").click(function(){
-	console.log($(this).children('p').text());
+	var self = $(this);
+	toggleLightBox();
+	addTextToMain(self);
+	addImageToMain(self);
 });
 
-//div.animate({width:'300px',visibility: "visible"},"slow");
-//div.animate({height:'100px',visibility:"visible"},"slow");
-//div.animate({width:'100px',visibility: "visible"},"slow");
+
+function addTextToMain(clickedElement){
+	var clickedImageText = clickedElement.children('p').text();
+	var mainParagraph = $('.main-image-container .main-text p');
+	mainParagraph.text(clickedImageText);
+}
+
+function addImageToMain(clickedElement){
+	var largeImagePath = clickedElement.attr("large-image-path");
+	var mainImage = $('.main-image-container .main-image-wrapper img');
+	mainImage.attr('src', largeImagePath);
+}
+
+
+
+
+
 
 
 
@@ -22,7 +39,7 @@ function toggleLightBox(photo) {
 		$(".main-image-container").css('visibility', 'visible');
 		showLargeImage(photo)
 	} 
-	isopen = !isopen
+	isopen = !isopen;
 }
 
 function displayMainImageContainer(){
