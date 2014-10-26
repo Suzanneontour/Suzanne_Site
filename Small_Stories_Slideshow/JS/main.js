@@ -1,6 +1,6 @@
 var largeImageArray = ["img/large/large_3.jpg", "img/large/large_10.jpg", "img/large/large_12.jpg", "img/large/large_16.jpg", "img/large/large_17.jpg", "img/large/large_18.jpg", "img/large/large_19.jpg"];
 var mainImageContainer = $(".main-image-container");
-
+var isopen = false
 $(".photoContainer").click(function(){
 	console.log($(this).children('p').text());
 });
@@ -11,9 +11,18 @@ $(".photoContainer").click(function(){
 
 
 
-function showLargeImage(whichImage){
-	displayMainImageContainer();
-	addMainImage();
+function showLargeImage(photo){
+	$('.large').css('src', photo)
+}
+
+function toggleLightBox(photo) {
+	if(isopen){
+		$(".main-image-container").css('visibility', 'hidden');
+	} else {		
+		$(".main-image-container").css('visibility', 'visible');
+		showLargeImage(photo)
+	} 
+	isopen = !isopen
 }
 
 function displayMainImageContainer(){
