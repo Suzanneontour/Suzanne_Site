@@ -1,4 +1,4 @@
-var largeImageArray = ["img/large_3.jpg", "img/large_10.jpg", "img/large_12.jpg", "img/large_16.jpg", "img/large_17.jpg", "img/large_18.jpg", "img/large_19.jpg"];
+var largeImageArray = ["img/large_3_crop.jpg", "img/large/large_8.jpg", "img/large_10.jpg", "img/large_12.jpg", "img/large/large_14.jpg", "img/large_16.jpg", "img/large_17.jpg", "img/large_18.jpg", "img/large_19.jpg"];
 var isopen = false;
 
 $(".photoContainer").click(function(){

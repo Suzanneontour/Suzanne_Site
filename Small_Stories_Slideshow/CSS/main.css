@@ -6,14 +6,21 @@ body {
 #luck {
 }
 
+.main-image-wrapper {
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+	width:200%;
+}
+
 .small {
 	width: 280px;
 	height: 300px;
 }
 
 .large {
-	height: 50%;
-	width: 50%;
+	height: 80%;
+	width: %;
 	border-color: black;
 /*	display: hidden;*/
 }
@@ -67,10 +74,15 @@ body {
 .main-text {
 	font-size: 1.2em;
 	color: black;
-	border-style: solid;
+	border-top:none;
+	border-right: black, solid;
+	border-left: black, solid;
+	border-bottom: black, solid;
 	background-color: white;
 	height: auto;
-	width: 600px;
+	position: relative;
+/*	width: 600px;*/
+	width: auto;
 
 }
 
