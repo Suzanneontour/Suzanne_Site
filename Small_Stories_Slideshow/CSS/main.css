@@ -61,8 +61,8 @@ body {
 
 .photoContainer:hover .caption{
 	display: block;
-
 }
+
 .photoContainer:hover img{
 	opacity: .2;
 }
@@ -74,7 +74,7 @@ body {
 .main-text {
 	font-size: 1.2em;
 	color: black;
-	border-top:none;
+	border-top: none;
 	border-right: black, solid;
 	border-left: black, solid;
 	border-bottom: black, solid;
