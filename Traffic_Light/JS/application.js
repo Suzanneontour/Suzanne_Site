@@ -1,4 +1,4 @@
- 
+// Purely taste, but it's good not to have extra lines at the top of files 
 function buttonClick(turnOnLight) {
 	var redElem = document.getElementById('red');
 	var orangeElem = document.getElementById('orange');
